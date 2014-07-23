@@ -57,9 +57,9 @@ html.home{
 #home .hero .large{
 	font-weight: bold;
 	font-size: 40px;
-	color: #074E6F;
+	color: #34495e;
 	text-transform: uppercase;
-	margin: 85px 0 0 136px;
+	margin: 85px 0 0 300px;
 	position: relative;
 	z-index: 2;
 	letter-spacing: 2px;
@@ -67,9 +67,9 @@ html.home{
 
 #home .hero .small{
 	font-weight: bold;
-	color: #955F5D;
+	color: #e67e22;
 	font-size: 18px;
-	margin: 10px 0 0 115px;
+	margin: 150px 0 0 35%;
 	line-height: 30px;
 	position: relative;
 	z-index: 2;
@@ -293,7 +293,7 @@ html.home{
 	line-height: 0;
 	margin-right: 14px;
 	letter-spacing: 1px;
-	background: url(/assets/refer/logo.png) 0 0 no-repeat;
+	background: url(/assets/refer/skillTrade.png) 0 0 no-repeat;
 	background-size: 106px 19px;
 	height: 19px;
 	width: 106px;
@@ -309,7 +309,7 @@ html.home{
 #refer .mammoth{
 	width: 612px;
 	height: 394px;
-	background: url(/assets/refer/mammoth.png) 0 0 no-repeat;
+	background: url(/assets/refer/LolChampions.jpg) 0 0 no-repeat;
 	background-size: 610px 394px;
 	overflow: hidden;
 	margin-top: 15px;
@@ -631,8 +631,8 @@ only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	#home .hero{
-		background: url(/assets/home/hero@2x.jpg) center center no-repeat;
-		background-size: 1600px 446px;
+		background: url(/assets/email/skillTrade.png) center no-repeat;
+		background-size: 500px 446px;
 	}
 
 	#home .form-wrap .key{
